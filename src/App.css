@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #d2d8fc;
+}
+
+#root {
+    width: 100%;
+}
+
+.title {
+    color: #546c84;
+    margin: 20px;
+}

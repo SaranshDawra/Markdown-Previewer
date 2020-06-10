@@ -1,0 +1,23 @@
+.titleBar {
+    width: 80%;
+    background: #04244c;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.editor {
+    width: 80%;
+    background-color: #2c3b5c;
+    color: white;
+    resize: none;
+    outline: none;
+    border: 2px solid #04244c;
+    overflow-y: scroll;
+    height: 400px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+}

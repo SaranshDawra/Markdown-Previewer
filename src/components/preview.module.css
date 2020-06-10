@@ -1,0 +1,24 @@
+.titleBar {
+    width: 100%;
+    background: #04244c;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.previewer {
+    text-align: start;
+    width: 100%;
+    background-color: #ccdcdc;
+    color: black;
+    resize: none;
+    outline: none;
+    border: 2px solid #04244c;
+    overflow-y: scroll;
+    height: 500px;
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 100px;
+    font-size: 1.2rem;
+}
