@@ -8,7 +8,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #d2d8fc;
+    background-color: #eb4d4b;
 }
 
 #root {
@@ -16,6 +16,6 @@ body {
 }
 
 .title {
-    color: #546c84;
+    color: #ffffff;
     margin: 20px;
 }
