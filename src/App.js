@@ -1,6 +1,7 @@
 import React from "react";
 import Editor from "./components/Editor";
 import Preview from './components/Preview';
+import Footer from './components/Footer';
 import "./App.css";
 
 class App extends React.Component {
@@ -19,6 +20,7 @@ class App extends React.Component {
           <h1 className="title">Markdown Previewer</h1>
           <Editor value={this.state.value} changed={this.updateChangeHandler}></Editor>
           <Preview value={this.state.value}></Preview>
+          <Footer />
       </div>
     );
   }
