@@ -1,0 +1,22 @@
+.footer {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.footer a{
+    color: white;
+}
+
+.icons a{
+    margin: 10px;
+    font-size: 25px;
+}
+
+.social{
+    transition: transform .2s;
+}
+
+.social:hover {
+    transform: scale(1.2);
+}
