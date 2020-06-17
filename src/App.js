@@ -6,8 +6,21 @@ import "./App.css";
 
 class App extends React.Component {
 
+  initialState =`
+  This is a paragraph
+
+  # Heading
+  ## Heading 2
+
+  - list item 1
+  - list item 2
+  - list item 3
+
+  [Visit my GitHub](https://github.com/SaranshDawra)
+`;
+
   state = {
-    value : ''
+    value : this.initialState
   }
 
   updateChangeHandler = (value) => {
