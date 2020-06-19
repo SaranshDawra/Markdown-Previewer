@@ -32,7 +32,10 @@ class App extends React.Component {
       <div className="container text-center">
           <h1 className="title">Markdown Previewer</h1>
           <Editor value={this.state.value} changed={this.updateChangeHandler}></Editor>
+          <br/>
+          <br/>
           <Preview value={this.state.value}></Preview>
+          <br/>
           <Footer />
       </div>
     );

@@ -1,17 +1,26 @@
+.Preview {
+    background: #FEEAE6;
+    /* box-shadow: 20px 20px 60px #dbb8b1, -20px -20px 60px #dbb8b1; */
+    box-shadow: 20px 20px 60px #cfa49b, -20px -20px 60px #cfa49b;
+    border: 2px solid #442C2E;
+    border-radius: 15px;
+}
+
 .titleBar {
     width: 80%;
-    background: #ff6b6b;
+    background: #FEEAE6;
     font-size: 30px;
-    color: #fff;
+    color: #442C2E;
     padding: 10px;
+    border-top: 1px solid #442C2E;
     margin: 0 auto;
 }
 
 .previewer {
     text-align: start;
     width: 80%;
-    background-color: #ff6b6b;
-    color: white;
+    background-color: #FEEAE6;
+    color: #442C2E;
     resize: none;
     outline: none;
     height: 400px;

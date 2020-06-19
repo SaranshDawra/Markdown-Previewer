@@ -1,11 +1,12 @@
 .footer {
-    color: white;
+    color: #442C2E;
     font-size: 20px;
     margin-bottom: 50px;
 }
 
 .footer a{
-    color: white;
+    color: #442C2E;
+    text-decoration: underline;
 }
 
 .icons a{

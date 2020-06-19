@@ -1,20 +1,27 @@
+.Editor {
+    background: #FEEAE6;
+    box-shadow: 20px 20px 60px #cfa49b, -20px -20px 60px #cfa49b;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
 .titleBar {
     width: 80%;
-    background: #ff6b6b;
+    background: #FEEAE6;
     font-size: 30px;
-    color: #fff;
+    color: #442C2E;
     padding: 10px;
     margin: 0 auto;
+    border-top: 1px solid #442C2E;
 }
 
 .editor {
     width: 80%;
-    background-color: #ff6b6b;
-    color: white;
+    background-color: #FEEAE6;
+    color: #442C2E;
     resize: none;
     outline: none;
     border: none;
-    overflow: hidden;
     height: 400px;
     padding: 5px;
     margin: 0 auto;
