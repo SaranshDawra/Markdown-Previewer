@@ -1,0 +1,29 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Title {
+    color: rgba(26,60,87,1);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 15px;
+}
+
+.InnerCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 840px) {
+    .InnerCont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
