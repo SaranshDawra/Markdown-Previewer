@@ -1,31 +1,24 @@
-.Preview {
-    background: #FEEAE6;
-    /* box-shadow: 20px 20px 60px #dbb8b1, -20px -20px 60px #dbb8b1; */
-    box-shadow: 20px 20px 60px #cfa49b, -20px -20px 60px #cfa49b;
-    border: 2px solid #442C2E;
-    border-radius: 15px;
-}
-
-.titleBar {
-    width: 80%;
-    background: #FEEAE6;
-    font-size: 30px;
-    color: #442C2E;
-    padding: 10px;
-    border-top: 1px solid #442C2E;
-    margin: 0 auto;
-}
-
-.previewer {
-    text-align: start;
-    width: 80%;
-    background-color: #FEEAE6;
-    color: #442C2E;
+.Previewer {
+    height: 500px;
+    width: 40%;
     resize: none;
-    outline: none;
-    height: 400px;
-    padding: 25px;
-    margin: 0 auto;
-    margin-bottom: 100px;
-    font-size: 1.2rem;
+    padding: 15px;
+    /* padding-left: 30px; */
+    font-size: 20px;
+    background: #eef4f6;
+    color: rgba(26,60,87,1);
+    margin: 20px;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 840px) {
+    .Previewer {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Previewer {
+        width: 85%;
+    }
 }
