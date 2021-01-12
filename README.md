@@ -1,6 +1,6 @@
 # Markdown-Previewer
 
-* It is aReact appby which you can preview your markdown text.
+* It is a React app by which you can preview your markdown text.
 
 ### View Live Demo
 <pre><a href="https://markdown-previewer-ruddy.vercel.app/"><b>https://markdown-previewer-ruddy.vercel.app</b></a></pre>
