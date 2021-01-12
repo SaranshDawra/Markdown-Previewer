@@ -7,17 +7,7 @@
 <pre><a href="https://markdown-previewer-ruddy.vercel.app/"><b>https://markdown-previewer-ruddy.vercel.app</b></a></pre>
 
 ### Images
-<details>
-  <summary>Editor</summary>
-  <img src="./images/editor.png" height="75%" width="75%">
-</details>
-
-<details>
-  <summary>Previewer</summary>
-  <img src="./images/previewer.png" height="75%" width="75%">
-</details>
-
-
+<img src="./images/Screenshot (94).png" width="100%">
 
 ## Setup
 #### Clone this repository
