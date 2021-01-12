@@ -1,7 +1,6 @@
 # Markdown-Previewer
 
-* Pomodoro Clock App is a customizable pomodoro timer that works on desktop & mobile browser.
-* Realtime preview of markdowns
+* It is aReact appby which you can preview your markdown text.
 
 ### View Live Demo
 <pre><a href="https://markdown-previewer-ruddy.vercel.app/"><b>https://markdown-previewer-ruddy.vercel.app</b></a></pre>
